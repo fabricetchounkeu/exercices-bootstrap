@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Columns</title>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+        <h1>I - blocs positioning</h1>
+      <div class="container bg-danger text-center col-12">
+        12 colonnes
+        <div class="row">
+          <div class="col">
+            <div></div>
+          </div>
+          <div class="col-2 border rounded-top">
+            <div>coucou</div>
+          </div>
+          <div class="col">
+            <div></div>
+          </div>
+          <div class="col-3 border rounded-top">
+            <div>ca</div>
+          </div>
+          <div class="col">
+            <div></div>
+          </div>
+          <div class="col-2 border rounded-top">
+            <div>va?</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+<section>
+    <h1>II - imbricated elements</h1>
+    <div class="container col-12">
+      <div class="row">
+        <div class="col-4">
+          <div class="border bg-primary text-center">nouvel</div>
+        </div>
+        <div class="col-8 border bg-primary text-center">
+          exercices
+          <div class="row">
+            <div class="col-3 border bg-primary text-center">ces</div>
+            <div class="col-6 border bg-primary text-center">blocs sont tous</div>
+            <div class="col-3 border bg-primary text-center">dans</div>
+          </div>
+            <div class="row">
+              <div class="col-4 border bg-primary text-center">la meme</div>
+              <div class="col-4 border bg-primary text-center">div ou est</div>
+              <div class="col-4 border bg-primary text-center">inscrit"exercise"</div>
+            </div>
+            <div class="row">
+              <div class="col-5 border bg-primary text-center">comment</div>
+              <div class="col-2 border bg-primary text-center">est</div>
+              <div class="col-5 border bg-primary text-center">ce possible?</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<br>
+<br>
+<section>
+   <h1>III - change elements order</h1>
+     <div class="container border text-center bg-warning col-12">12 colonnes
+       <div class="row justify-content-around">
+        
+        <div class="border text-center col-2">bloc 1 de 3</div>
+        
+        <div class="border text-center col-2 order-5">bloc 2 de 3</div>
+        
+        <div class="border text-center col-2">bloc 3 de 3</div>
+        
+
+       </div>
+
+
+
+
+
+
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+</section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  </body>
+</html>
